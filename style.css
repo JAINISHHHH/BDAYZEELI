@@ -79,14 +79,14 @@ body {
     padding: 20px 30px;
     border-radius: 20px;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #b00050;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   }
   #live-age {
     font-weight: bold;
     margin-top: 10px;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   
 /*   
