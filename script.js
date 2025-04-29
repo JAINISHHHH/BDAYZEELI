@@ -17,7 +17,7 @@ function startMagic() {
   const canvas = document.getElementById("confetti");
   const ctx = canvas.getContext("2d");
   let confetti = [];
-  const colors = ['#ff0a54', '#ff477e', '#ff7096', '#fbb1bd', '#ffd6e0'];
+  const colors = ['#0aafff','#47c1ff','#70d0ff','#b1e6fb','#d6f3ff','#0aff81','#47ffab','#70ffc1','#b1fbe0','#d6fff0','#ff0a2a','#ff4754','#ff707a','#fbb1b7','#ffd6d9'];
   
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
@@ -64,7 +64,7 @@ function startMagic() {
     const heartContainer = document.querySelector(".hearts");
     setInterval(() => {
       const heart = document.createElement("div");
-      heart.textContent = "💖";
+      heart.textContent = "💖💙";
       heart.style.position = "fixed";
       heart.style.left = Math.random() * window.innerWidth + "px";
       heart.style.top = "100%";
