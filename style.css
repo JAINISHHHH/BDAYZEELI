@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle, #ffe0ec 0%, #ffc3d1 100%);
+    color: #b00050;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container {
+    padding: 60px 20px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: auto;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #b00050;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  .gallery {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.25);
+  }
+  
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .age-box {
+    margin-top: 40px;
+    background: #fff0f5;
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #b00050;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  }
+  #live-age {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+  
+/*   
+  .timer {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #8b004f;
+    background: #ffffffa6;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  #countdown {
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  } */
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
