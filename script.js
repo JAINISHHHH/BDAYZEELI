@@ -101,7 +101,7 @@ function startMagic() {
 // setInterval(updateCountdown, 1000);
 
 function updateAge() {
-    const birthDate = new Date(2005, 5, 23, 0, 0, 0); // May 12, 2004
+    const birthDate = new Date(2006, 5, 23, 0, 0, 0); // May 12, 2004
     const now = new Date();
     const diff = now - birthDate;
   
